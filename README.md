@@ -1,2 +1,29 @@
-# 规划你的人生、提升人生境界、记录自己的成长
-一个人生规划小工具、vue-cli3 练手
+# develop-yourself
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
