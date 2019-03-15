@@ -4,9 +4,13 @@ module.exports = {
     node: true
   },
   extends: ['plugin:vue/essential', 'eslint:recommended'],
+  overrides: [
+    {
+      files: ['*.js', '*.vue'],
+      excludedFiles: 'output.js'
+    }
+  ],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'accessor-pairs': 2,
     'arrow-spacing': [2, { before: true, after: true }],
     'block-spacing': [2, 'always'],
